@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/9426a51386.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/back-screen.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/login-container.css">
+    <link rel="stylesheet" href="./css/form-container.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/form-title.css">
+    <link rel="stylesheet" href="./css/form-social.css">
+    <link rel="stylesheet" href="./css/social-icon.css">
+    <link rel="stylesheet" href="./css/form-input-container.css">
+    <link rel="stylesheet" href="./css/form-input.css">
+    <link rel="stylesheet" href="./css/form-button.css">
+    <link rel="stylesheet" href="./css/overlay-container.css">
+    <link rel="stylesheet" href="./css/overlay.css">
+    <link rel="stylesheet" href="./css/mobile-text.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js" integrity="sha512-is1ls2rgwpFZyixqKFEExPHVUUL+pPkBEPw47s/6NDQ4n1m6T/ySeDW3p54jp45z2EJ0RSOgilqee1WhtelXfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./index.js"></script>
+
+    <script src="./js/login.js" defer></script>
+    <title>WALL-e</title>
+    <link rel="icon" href="./image/3398643.png"  type = "image/x-icon">
+</head>
+<body>
+    <main class="back-screen">
+        <div class="login-container" id="login-container">
+            <div class="form-container">
+                <form class="form form-login">
+                    <h2 class="form-title">Comece a usar</h2>
+                    
+                    <p class="form-text">Abra o Whatsapp no seu dispositivo</p>
+                    <p class="form-text">Vá para as configurações</p>
+                    <p class="form-text">Entre em: aparelhos conectados</p>
+                    <p class="form-text">Selecione:Conectar um aparelho</p>
+                    <p class="form-text">Leia o QRCode</p>
+                    <p class="mobile-text">
+                        <a href="#" id="open-register-mobile">Gerar QR Code</a>
+                    </p>
+                </form>
+                <form class="form form-register">
+                    <h2 class="form-title">QR Code</h2>
+                    <img src="./image/9543b7ea-91b7-4259-a47d-d241aca65f38.jpg" alt="image" height="150" width="150" >
+                    <div id="qrcode"></div>
+                    <script type="text/javascript">
+                    new QRCode(document.getElementById("qrcode"), "2@8uxbgux46twH2Vg4JXuSbB7jbKqQC33p0XBmA5Gx4Wiz83HsC83Wtw8CkPM+6yDcb93z/QhNpA0fPg==,nWRoxQshGixeB24Qrb87aIAX1F4Z5ooisQYIXneW1XE=,TGpChfzZrrMeBouHidJcaGTv/9yn+1sPQaD1k/2+3j8=,heAh12TGDAeOIvcVXc9RQL22KUeFqzRkJLPxIv8qq4g=");
+                    </script>
+                    <p class="form-text">Escaneie o QR Code</p>
+                    <p class="mobile-text" >
+                        <a href="#" id="open-login-mobile">Voltar</a>
+                    </p>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <h2 class="form-title form-title-light">Não lembra como conectar no Whats?</h2>
+                    <p class="form-text">Sem problemas! Nós ajudamos</p>
+                    <button class="form-button form-button-light" id="open-login">Voltar</button>
+                </div>
+                <div class="overlay">
+                    <h2 class="form-title form-title-light">Vamos nos conectar? </h2>
+                    <button class="form-button form-button-light" id="open-register">Gerar QR Code</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/9426a51386.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/back-screen.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/login-container.css">
+    <link rel="stylesheet" href="./css/form-container.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/form-title.css">
+    <link rel="stylesheet" href="./css/form-social.css">
+    <link rel="stylesheet" href="./css/social-icon.css">
+    <link rel="stylesheet" href="./css/form-input-container.css">
+    <link rel="stylesheet" href="./css/form-input.css">
+    <link rel="stylesheet" href="./css/form-button.css">
+    <link rel="stylesheet" href="./css/overlay-container.css">
+    <link rel="stylesheet" href="./css/overlay.css">
+    <link rel="stylesheet" href="./css/mobile-text.css">
+    <link  href="startapplication.js">
+
+    <script src="./js/login.js" defer></script>
+    <title>WALL-e</title>
+    <link rel="icon" href="./image/3398643.png"  type = "image/x-icon">
+</head>
+<body>
+    <main class="back-screen">
+        <div class="login-container" id="login-container">
+            <div class="form-container">
+                <form class="form form-login">
+                    <h2 class="form-title">Fazer Login</h2>
+                    <div class="form-social">
+                        <a href="" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="fab fa-google"></i> 
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <p class="form-text">Utilize a conta</p>
+                    <div class="form-input-container">
+                        <input type="text" class="form-input" placeholder="Email">
+                        <input type="password" class="form-input" placeholder="Password"> 
+                    </div>
+                    <a href="#" class="form-link">Esqueceu a senha?</a>
+                    <button type="button" class="form-button">Logar</button>
+                    <p class="mobile-text">Não tem conta? 
+                        <a href="#" id="open-register-mobile">Registre-se</a>
+                    </p>
+                </form>
+                <form class="form form-register">
+                    <h2 class="form-title">Criar conta</h2>
+                    <div class="form-social">
+                        <a href="" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="fab fa-google"></i> 
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <p class="form-text">ou cadastre seu email</p>
+                    <div class="form-input-container">
+                        <input type="text" class="form-input" placeholder="Nome">
+                        <input type="text" class="form-input" placeholder="Email">
+                        <input type="password" class="form-input" placeholder="Password"> 
+                    </div>
+                    <button type="button"class="form-button">Cadastrar</button>
+                    <p class="mobile-text" >Já tem conta? 
+                        <a href="#" id="open-login-mobile">Login</a>
+                    </p>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <h2 class="form-title form-title-light">Já tem conta?</h2>
+                    <p class="form-text">Para entrar na nossa plataforma faça login.</p>
+                    <button class="form-button form-button-light" id="open-login">Entrar</button>
+                </div>
+                <div class="overlay">
+                    <h2 class="form-title form-title-light">Olá Aluno</h2>
+                    <p class="form-text">Cadastre e comece a usar nossa plataforma</p>
+                    <button class="form-button form-button-light" id="open-register">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
