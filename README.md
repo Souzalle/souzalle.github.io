@@ -1,5 +1,5 @@
 
-# WALL-e
+# WALL-e ( PROJETO AINDA EM ANDAMENTO )
 
 A integração permitirá que usuários interajam com o ChatGPT através de mensagens de texto no WhatsApp, fornecendo respostas automatizadas baseadas em suas perguntas e comandos.
 
@@ -10,22 +10,16 @@ A integração permitirá que usuários interajam com o ChatGPT através de mens
 
 ## Rodar o projeto
 
-Clone este projeto com o comando:
+Utilize o link para acessar a página:
 
 ```bash
-  git git@github.com:DiegoCost4/ChatBot.git
+  https://souzalle.github.io/
 ```
+## Caso queira fazer Updates
 
-Vá até o arquivo .env.example e renomeie-o para .env, e altere os valores necessários para seu funcionamento.
-
-Instale agora as dependencias do projeto com o comando:
+Clone o repositório utilizando o comando:
 
 ```bash
-  npm install
+  git clone git@github.com:Souzalle/souzalle.github.io.git
 ```
 
-Por fim rode o comando abaixo para iniciar o projeto e leia o QR Code com o seu Whasapp para se conectar com o serviço.
-
-```bash
-  npm start
-```
