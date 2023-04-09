@@ -30,7 +30,41 @@
 
     <script src="./js/login.js" defer></script>
     <title>WALL-e</title>
+
     <link rel="icon" href="./image/3398643.png"  type = "image/x-icon">
+
+
+    <!-- Puxando biblioteca para fazer o LOGIN com google -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+
+
+    <script>
+        function handleCredentialResponse(response) {
+            window.location.href='./HomePage.html'
+        }
+        window.onload = function () {
+
+          google.accounts.id.initialize({
+            client_id: "661238711015-bv26074mjv7gj23uvb0nqch7p9rcqscr.apps.googleusercontent.com",
+            callback: handleCredentialResponse
+          });
+
+          google.accounts.id.renderButton(
+            document.getElementById("buttonDiv"),
+            { 
+            theme: "outline", 
+            size: "large",
+            type:"icon",
+            shape:"circle",
+            text: "signin_with.",
+            }  // customization attributes
+          );
+          google.accounts.id.prompt(); // also display the One Tap dialog
+        }
+    </script>
+
+
 </head>
 <body>
     <main class="back-screen">
@@ -39,15 +73,18 @@
                 <form class="form form-login">
                     <h2 class="form-title">Fazer Login</h2>
                     <div class="form-social">
-                        <a href="" class="social-icon">
+                        <!-- <a href="" class="social-icon">
                             <i class="fab fa-facebook-f"></i>
+                        </a> -->                       
+
+                        <a href="./HomePage.html" id="buttonDiv" class="social-icon">
+                            <i class="fab fa-google"></i>
                         </a>
-                        <a href="" class="social-icon">
-                            <i class="fab fa-google"></i> 
-                        </a>
-                        <a href="" class="social-icon">
+
+
+                        <!-- <a href="" class="social-icon">
                             <i class="fab fa-linkedin"></i>
-                        </a>
+                        </a> -->
                     </div>
                     <p class="form-text">Utilize a conta</p>
                     <div class="form-input-container">
