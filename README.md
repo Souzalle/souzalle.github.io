@@ -21,5 +21,5 @@ Utilize o link para acessar a página:
 Clone o repositório utilizando o comando:
 
 ```bash
-  git clone git@github.com:Souzalle/souzalle.github.io.git
+   #git clone git@github.com:Souzalle/souzalle.github.io.git
 ```
