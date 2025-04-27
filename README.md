@@ -1,5 +1,5 @@
 
-# WALL-e ( PROJETO AINDA EM ANDAMENTO )
+# WALL-e ( PROJETO para matéria de faculdade )
 
 A integração permitirá que usuários interajam com o ChatGPT através de mensagens de texto no WhatsApp, fornecendo respostas automatizadas baseadas em suas perguntas e comandos.
 
