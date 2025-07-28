@@ -26,3 +26,6 @@ Clone o repositório utilizando o comando:
   git clone git@github.com:Souzalle/souzalle.github.io.git
 ```
 
+<img width="40%" src="https://github.com/user-attachments/assets/96bbbd7a-1194-4631-8c9d-c4445be94e95" alt="Logo"> <img width="40%" src="https://github.com/user-attachments/assets/10de13f2-7ed4-4b12-8642-153d24bd55ff" alt="Logo">
+
+
