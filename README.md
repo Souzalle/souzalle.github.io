@@ -3,6 +3,9 @@
 
 A integração permitirá que usuários interajam com o ChatGPT através de mensagens de texto no WhatsApp, fornecendo respostas automatizadas baseadas em suas perguntas e comandos.
 
+Porém esse projeto é apenas o front-end da página de cadastro e login para acessar o aplicativo.
+
+
 ## Tecnologias
 
 - [OpenIA](https://beta.openai.com/)
