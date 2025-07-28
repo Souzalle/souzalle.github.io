@@ -3,7 +3,7 @@
 
 A integração permitirá que usuários interajam com o ChatGPT através de mensagens de texto no WhatsApp, fornecendo respostas automatizadas baseadas em suas perguntas e comandos.
 
-Porém esse projeto é apenas o front-end da página de cadastro e login para acessar o aplicativo.
+Porém esse projeto é apenas o front-end da página de cadastro e login para acessar o aplicativo. A página tem uma animação simples de transição entre login e cadastro e também é responsiva, assim sendo possível abrir ela de qualquer dispositivo( PC, celular, tablet) sem perder as funcionalidades ou o design
 
 
 ## Tecnologias
